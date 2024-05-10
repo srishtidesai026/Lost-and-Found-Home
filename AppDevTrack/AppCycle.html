@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Toggle button added here -->
+        <button class="toggle-button" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="sidebar" id="sidebar">
+            <div class="logo">Lost & Found <button class="toggle-button" id="btn" onclick="toggleSidebar1()">
+                <i class="fas fa-bars"></i>
+            </button></div>
+            <ul class="main">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-stream"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Lost Items</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-database"></i>
+                        <span>Found Items</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        <span>About Us</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Welcome to Lost & Found App</h1>
+            <p>Find what you've lost or report something you've found.</p>
+            <a href="search.html" class="cta-button">Search Lost Items</a>
+            <a href="report.html" class="cta-button">Report Found Item</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
